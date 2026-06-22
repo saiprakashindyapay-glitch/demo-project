@@ -13,6 +13,7 @@ body {
   justify-content: center;
   overflow: hidden;
   position: relative;
+  padding: 40px 20px;
 }
 
 /* ── Doodle SVGs ── */
@@ -78,6 +79,7 @@ body {
   padding: 36px 32px;
   width: 100%;
   max-width: 480px;
+  margin: 0 auto;
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(74,222,128,0.2);
   position: relative;
   z-index: 10;
