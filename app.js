@@ -61,6 +61,7 @@ function addTodo() {
 addBtn.addEventListener('click', addTodo);
 input.addEventListener('keydown', e => { if (e.key === 'Enter') addTodo(); });
 clearCompleted.addEventListener('click', () => {
+  if (!confirm('Clear all completed tasks?')) return;
   todos = todos.filter(t => !t.done);
   save();
   render();
